@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <title>img to pdf</title>
+</head>
+<body>
+    <h1>Convert images to pdf format</h1>
+
+    <div class="card">
+       <img id="showimg" src="bg.jpg">
+
+       <div class="button">
+        <div class="upload">
+            <input type="file" onchange="loadfile(event)" name="" accept=".png,.jpg,.jpeg">
+            
+        </div>
+       <div> <button class="pdf" onclick="pdfDownload()">Download To PDF</button></div>
+       </div>
+    </div>
+
+    
+    <script src="index.js">
+        
+        </script>
+</body>
+
+</html>
